@@ -1,0 +1,280 @@
+/* 
+    Document   : main
+    Created on : 27.Eyl.2012, 15:16:09
+    Author     : lenovo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+    body{
+        background-color: #2A3332;
+        margin:0px;
+        position: relative;
+        font-family:Segoe UI;
+        
+
+}
+
+.copy{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    color:whitesmoke;
+}
+
+.copy a{
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: small
+}
+
+.copy a:hover{
+    text-decoration: underline
+}
+
+.main{
+
+width:60%;
+margin-left:auto;
+margin-right:auto;
+min-width:500px;
+min-height: 100%;
+}
+
+.header{
+width:100%;
+height:30px;
+background-color:black;
+
+padding:10px;
+border-radius:5px;
+border:1px solid #B2FFFF;
+margin-top:3px
+
+}
+
+.header ul{
+list-style-type: none;
+margin:0px;
+padding:0;
+}
+.header ul li{
+display:inline-block;
+margin:0px
+
+}
+
+.header a{
+color:#B2FFFF;
+text-decoration: none;
+line-height: 30px;
+padding-left :10px;
+padding-right: 10px;
+display: block;
+font-family: Trebuchet MS,Segoe UI;
+font-weight: bold
+
+}
+.header a:hover{
+color:#B2FFFF;
+text-decoration:none;
+
+text-shadow:1px 2px 8px #B2FFFF;
+
+}
+
+.mesajlar{
+width:100%;
+position: relative
+}
+
+.cevapyaz{
+
+    position:absolute;
+    right:10px;
+    bottom: 0px
+}
+
+.mkapsa{
+    width:100%;
+    padding:10px;
+
+    margin-top:5px;
+}
+
+.yazan{
+width:100%;
+background-color: black;
+color:#B2FFFF ;
+position:relative;
+z-index: 0;
+border-radius:5px;
+border:1px solid gray;
+
+padding-bottom: 1px;
+}
+
+.likes{
+    position: absolute;
+    right:40px;
+    top:0px;
+
+
+
+}
+
+.solspan{
+    left:-20px;
+    top:2px;
+    position:absolute
+}
+
+.sagspan{
+    right:-20px;
+    position:absolute;
+    top:0px;
+}
+
+.vazgec{
+    position:absolute;
+    top:0px;
+    margin-left:auto;
+    margin-right:auto;
+    right:120px;
+    font-size: small
+
+}
+.vazgec a{
+  color:#B2FFFF;
+  text-decoration: underline;
+  font-size: small
+
+}
+
+.likes img:hover{
+  cursor: pointer
+}
+
+.msg{
+
+border-radius:5px;
+border:1px solid gray;
+background-color: whitesmoke;
+width: 100%;
+
+
+}
+
+.icerik{
+padding:10px;
+position:relative
+}
+.icerik1{
+position:absolute;
+left:0px;
+top:0px
+}
+#temizle{
+clear:both;
+height:3px
+
+}
+.lnk{visibility: hidden;position: fixed;top: 0px;left: 0px}
+
+  #kapsa{
+
+        display:none;
+        position:absolute;
+        left:350px;
+        top:125px;
+        -moz-border-radius:12px;
+        -webkit-border-radius:12px;
+        border:3px double  #0099FF;
+        padding:50px;
+        width:40%;
+        background-color:#2A3332;
+        
+        color: #0099FF
+
+
+}
+
+#kapsa img#kapat{
+    position:absolute;
+    right:30px;
+    top:15px;
+
+}
+
+#kapsa img#kapat:hover{
+   cursor: pointer
+
+}
+
+#wind{
+width:100%;
+height:100%;
+
+margin-left: auto;
+margin-right: auto
+
+}
+
+#baslik{
+width:100%;
+height:15%;
+}
+#forms{
+width:100%;
+height:85%;
+
+
+}
+
+#texts{
+width:340px;
+height:25px;
+
+
+}
+#tsol{
+width:100px;
+float:left;
+line-height:25px
+
+}
+
+#msg{
+width:340px;
+height:120px;
+
+}
+
+#temizle{
+clear:both;
+
+
+}
+
+.sayfala{text-decoration: none;color: white}
+
+.cevaplink{text-decoration:none;color:black;font-size: small}
+
+.scurrent{float:left;padding:2px 6px 2px 6px;border-radius:5px;background-color:black;margin-right:4px;color:black;border: 1px  solid #B2FFFF }
+.scurrent a{text-decoration: none;color: #B2FFFF }
+
+
+.sother{float:left;padding:2px 6px 2px 6px;border-radius:5px;background-color:black;margin-right:4px}
+.sother a{text-decoration: none;color: #B2FFFF}
+
+.skapsa{margin-top: 5px;padding:10px 10px 10px 10px}
+
+.cvpbtn{width:30px;padding:8px;color:#0099FF;background-color: black;cursor: pointer;border-radius:5px;border: 1px solid #0099FF}
+
+.kapsakapat{position:absolute;top:5px;right:10px;color:#0099FF;cursor: pointer}
