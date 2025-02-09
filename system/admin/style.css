@@ -1,0 +1,27 @@
+  
+  /*
+  
+  Coded    : RedToweR
+  Web Url  : http://www.kaancelik.net/
+  
+  
+  */
+  
+body { background-image: url("images/bg.png"); }
+label { font-family:comic sans ms;font-size:19px;color:white;margin-left:150px;margin:91px;color:red; }
+.logo { width:114; height:419; margin-left:300px; }
+.form { margin-left:400px;}
+.girisbg { width:565px;height:355px;background-image: url("images/girisbg.png");margin-left:-150px;margin-top:-40px; }
+.inputbg { width:400px;height:40px;background-color:#173f5f;margin-left:90px;border:3px solid;font-size:20px; }
+.girisyap { 
+	background: transparent;
+	border: 0px;
+	background-image: url('images/giris.png');
+	background-repeat: no-repeat;
+	width: 83px;
+	height: 35px;
+	margin-left:400px;
+	cursor: pointer;
+	margin-top: -5px;
+	}
+.ip { font-size:20px;margin-left:20px;margin-top:-40px; }

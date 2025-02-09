@@ -1,0 +1,98 @@
+  
+  /*
+  
+  Coded    : RedToweR
+  Web Url  : http://www.kaancelik.net/
+  
+  
+  */
+  
+body { * margin:0; background-color:#d2d6d1; }
+a.logocuk img{
+filter:alpha(opacity=50); -moz-opacity: 1.0; opacity: 1.0;
+} 
+a.logocuk:hover img{
+filter:alpha(opacity=50); -moz-opacity: 0.5; opacity: 0.5;
+}
+.logo { width:448; height:134; }
+ 
+ ul#minitabs{
+    padding-top:60px;
+    font: 100% Arial,sans-serif;
+    list-style: none;    
+	margin: -100px;
+	margin-right:20px;
+    padding: 7px 0;
+    font-weight: bold;
+	border-radius: 5px;
+	margin-bottom: -234px;
+	float:right;
+    white-space: nowrap
+}
+ul#minitabs li{
+    display: inline;
+    margin: 0 3px
+}
+ul#minitabs a{
+    text-decoration: none;
+    padding: 0 0 3px;
+    border-bottom: 4px solid #FFF;
+    color: #999;
+}
+ul#minitabs a#current{
+    border-color: #822b2b;
+    color:#57514a;
+}
+ul#minitabs a:hover{
+    border-color: #57514a;
+    color: #666;
+}
+.cizgi { 
+background: url("resim/cizgi.png"); 
+width:1007px; 
+height:8px; 
+
+}
+.avatar { 
+padding-top:11px;
+width:128px; 
+height:128px;
+margin-right:50px;
+
+}
+.mesaj { 
+background-image: url("resim/mesajbg.png");
+width:765px; 
+height:101px;
+margin: -115px;
+margin-left:130px;
+
+}
+.mesajbaslik { 
+font-size:18px;
+margin-left:4px;
+padding:3px;
+
+color:white;  
+font-family:Comic sans MS;
+}
+#mesajicerik { 
+font-size:14px;
+margin-top:8px;
+margin-left:6px;
+color:white;  
+font-family:Comic sans MS;
+}
+.sayfabg { 
+background-image: url("resim/sayfabg.png");
+margin-left:125px;
+width:701px; 
+height:63px;
+}
+.sayfalama {
+text-decoration: none;
+font-size:20px;
+margin-left:22px;
+color:white;
+}
+.copyright { font-size:14px; color:black; margin-left:10px; margin-top:11px; }
